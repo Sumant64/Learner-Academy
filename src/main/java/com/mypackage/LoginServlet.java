@@ -38,7 +38,7 @@ public class LoginServlet extends HttpServlet {
 			
 			
 		}else {
-			out.println("<h1>Login name or password is incorrect....<h1>");
+			out.println("<p style='background-color:red; font-size: 30px; margin-right: 300px; text-align: center;'>Login name or password is incorrect....<p>");
 			
 			RequestDispatcher rd=request.getRequestDispatcher("Login.jsp");
 			

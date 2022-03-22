@@ -16,16 +16,6 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>LoginServlet1</display-name>
-    <servlet-name>LoginServlet1</servlet-name>
-    <servlet-class>com.mypackage.LoginServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>LoginServlet1</servlet-name>
-    <url-pattern>/LoginServlet1</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
     <display-name>Subject</display-name>
     <servlet-name>Subject</servlet-name>
     <servlet-class>com.mypackage.Subject</servlet-class>

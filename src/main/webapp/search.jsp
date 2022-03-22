@@ -14,7 +14,7 @@
 </div>
 <form action="stu_search.jsp">
 	<div>
-	<label>Sudent ID:</label>
+	<label>Student ID:</label>
 	<input type="text" placeholder="Enter Student ID" name="id" required/>
 	</div>
 	<div>

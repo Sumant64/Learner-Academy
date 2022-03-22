@@ -20,7 +20,7 @@ try {
 	Connection con=db.getConnection();
 
 	Statement st=con.createStatement();
-	String query="select sub_class.Period, teacher.Teacher_name, subject.Subject_name from sub_class JOIN teacher ON sub_class.Tech_ID=teacher.Tech_ID   JOIN subject ON sub_class.Sub_ID=subject.Sub_ID where class_ID=1";
+	String query="select sub_class.Period, teacher.Teacher_name, subject.Subject_name from sub_class JOIN teacher ON sub_class.Tech_ID=teacher.Tech_ID   JOIN subject ON sub_class.Sub_ID=subject.Sub_ID where class_ID=1 order by Period";
 	ResultSet rs=st.executeQuery(query);%>
 	<div class="display">
 	<table>
